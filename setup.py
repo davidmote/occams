@@ -18,7 +18,7 @@ CHANGES = open(os.path.join(HERE, 'CHANGES.rst')).read()
 
 REQUIRES = list(yield_packages(os.path.join(HERE, 'requirements.txt')))
 DEVELOP = list(yield_packages(os.path.join(HERE, 'requirements-develop.txt')))
-
+print(DEVELOP)
 
 def get_version():
     """

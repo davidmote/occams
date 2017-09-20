@@ -21,7 +21,6 @@ humanize==0.5.*
 jsmin==2.2.*
 # Javascript asset copression
 ldap3==1.*
-
 lingua==4.*
 # i18n
 psycopg2==2.7.*
@@ -37,7 +36,6 @@ pyramid_chameleon==0.*
 pyramid_exclog==0.*
 # Error log messaging for production
 pyramid_redis==0.1.*
-
 pyramid_redis_sessions==1.0.*
 # Redis-based HTTP session
 pyramid_tm==1.*
@@ -47,7 +45,6 @@ pyramid_webassets==0.9.*
 pyramid_who==0.3.*
 # User authentication
 repoze.who==2.*
-
 rutter==0.*
 # Virtual URL path proxy-passing
 six==1.*
@@ -56,10 +53,9 @@ sqlalchemy==1.0.*
 # ORM
 tabulate==0.7.*
 # ASCII tables for CLI pretty printing
-unicodecsv==0.14.* ; python_version < '3.0'
+unicodecsv==0.14.*
 # Handles unicode processing in Python 2
 who_ldap==3.2.*
-
 wtforms==2.*
 # Data input validation
 wtforms-components==0.10.*
